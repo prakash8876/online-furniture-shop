@@ -30,6 +30,8 @@ public class ResourceGlobalHandler {
         ApiError error = new ApiError();
         error.setTimestamp(LocalDateTime.now());
         error.setPath(request.getRequestURI());
+        error.setError(ex.getMessage());
+        error.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());
         return ResponseEntity.ok(error);
     }
 

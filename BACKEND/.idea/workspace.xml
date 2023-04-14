@@ -5,23 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d398ade-14ae-41f3-942d-41723a352ff6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/dto/ApiRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/dto/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/entity/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/entity/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/entity/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/entity/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/repository/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/repository/ItemRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/dto/ApiRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/dto/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/exception/ApiError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/exception/ResourceGlobalHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer/service/CustomerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/exception/ResourceGlobalHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/item-service/src/main/java/io/matoshri/item/exception/ResourceGlobalHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/test/java/io/matoshri/customer/CustomerServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/test/java/io/matoshri/customer/CustomerServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +59,35 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/customer-service/src/main/java/io/matoshri/customer" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="io.matoshri.item.entity" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub-Repository\online-furniture-shop\BACKEND\customer-service\src\main\java\io\matoshri\customer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.matoshri.customer.service" />
+      <recent name="io.matoshri.customer.repository" />
+      <recent name="io.matoshri.customer.entity" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CustomerServiceApplication">
+    <configuration name="CustomerServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.matoshri.customer.CustomerServiceApplication" />
+      <module name="customer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.matoshri.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ItemServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.matoshri.item.ItemServiceApplication" />
       <module name="item-service" />
@@ -83,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerServiceApplication" />
         <item itemvalue="Application.ItemServiceApplication" />
       </list>
     </recent_temporary>

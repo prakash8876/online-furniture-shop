@@ -1,3 +1,24 @@
+server:
+  port: 9090
 spring:
   application:
     name: ITEM-SERVICE
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:~/itemsdb
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  h2:
+    console:
+      enabled: true
+      path: /h2-items
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
